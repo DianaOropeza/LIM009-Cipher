@@ -20,7 +20,13 @@ describe('cipher', () => {
       assert.equal(cipher.encode(3,'a b'),'d e')
     })
     it('debería retornar "Fuera de rango" para " " con offset 0',()=>{
-      assert.equal(cipher.encode(0,"´"),'Fuera de rango')
+      assert.equal(cipher.encode(0,"`"),'Fuera de rango')
+    })
+    it('debería retornar "ô" para "ñ" con offset 3',()=>{
+      assert.equal(cipher.encode(3,'ñ'),'ô')
+    })
+    it('debería retornar "1" para "." con offset 3',()=>{
+      assert.equal(cipher.encode(3,'.'),'1')
     })
   });
 
@@ -42,6 +48,12 @@ describe('cipher', () => {
     })
     it('debería retornar "Fuera de rango" para " " con offset 0',()=>{
       assert.equal(cipher.decode(0,'´'),'Fuera de rango')
+    })
+    it('debería retornar "ñ" para "ô" con offset 3',()=>{
+      assert.equal(cipher.decode(3,'ô'),'ñ')
+    })
+    it('debería retornar "." para "1" con offset 3',()=>{
+      assert.equal(cipher.decode(3,'1'),'.')
     })
   });
 });
