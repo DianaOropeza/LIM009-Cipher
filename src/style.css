@@ -1,28 +1,53 @@
-body{
-    background-color: rgb(43, 146, 206);
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background:rgb(250, 180, 192);
 }
 img{
     position: absolute;
-    z-index: -1; 
-    margin: 0em 1em 1em 2.5em;
+     z-index: -1; 
+     width: 100% ;
+    height: 120% ;
+}
+.logo{
+    height: 45px;
+    width: 130px;
+    margin-top: 3px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 0;
+}
+.btnh{
+    margin-left: 1260px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 0;
+    font-size: 15px;
+    background-color: rgb(104, 112, 112);
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(73, 71, 77);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
 }
 h1{
-    color: rgba(247, 17, 86, 0.932);
-    font-size: 80px;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-    margin: 0em 1em 0em 1em;
+    text-align:center;
+    margin-top: 50px;
+    font-size: 50px;
 }
 h2{
     text-align: center;
-    border: 6px solid rgba(227, 227, 245, 0.938);
-    font-size: 20px;
-    margin: 0.5em 15em 0em 15em;
-    padding: 15px;
+    line-height: 20px;
+    font-weight: 200;
+    color: #757575;
 }
 h3{
+    margin-top: 35px;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 } 
 p{
@@ -35,7 +60,7 @@ p{
     border: 6px solid rgba(227, 227, 245, 0.658);
     padding: 15px;
 }
-button{
+.btn{
     font-size: 15px;
     background-color: rgb(104, 112, 112);
     color: rgb(0, 0, 0);
@@ -44,5 +69,11 @@ button{
     border-radius: 5px;
     margin: 0em 1em 0em 2em;
 }
-
+.hidden{
+    display: none;
+    z-index:1;
+    width: 450px;
+    height: 380px;
+    margin: 15em 20em 0em 55.5em;
+}
  

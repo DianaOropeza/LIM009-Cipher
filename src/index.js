@@ -1,26 +1,36 @@
 /* Acá va tu código 
 muestre en un html */
-const desp=document.getElementById("desp");
+const offset=document.getElementById("offset");
 const mensaje=document.getElementById("mensaje");
 const btncifrar = document.getElementById("cifrar");
 const btndescifrar=document.getElementById("descifrar");
-const resulta=document.getElementById("resultado");
-const limp=document.getElementById("limpiar");
+const resulta=document.getElementById("result");
+const clear=document.getElementById("limpiar");
+const btnhelp=document.getElementById("help");
+const help=document.getElementById("ihelp");
 
 btncifrar.addEventListener("click",()=>{    
 const mensajeCapturado=mensaje.value;
-const despCapturado=desp.value;
-resulta.innerHTML=cipher.encode(despCapturado,mensajeCapturado);
+const offsetCapturado=offset.value;
+resulta.innerHTML=cipher.encode(offsetCapturado,mensajeCapturado);
 });
 
 btndescifrar.addEventListener("click",()=>{
 const mensajeCapturado=mensaje.value;
-const despCapturado=desp.value;
-resulta.innerHTML=cipher.decode(despCapturado,mensajeCapturado);
+const offsetCapturado=offset.value;
+resulta.innerHTML=cipher.decode(offsetCapturado,mensajeCapturado);
 })
 
-limp.addEventListener("click",()=>{
+clear.addEventListener("click",()=>{
 mensaje.value=" ";
-desp.value=" ";
+offset.value=" ";
 resulta.innerHTML=" ";
+})
+
+btnhelp.addEventListener("click", ()=>{
+ihelp.style.display = 'block';
+})
+
+help.addEventListener("click",()=>{
+ihelp.style.display='none';
 })

@@ -6,22 +6,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="../src/img/f33.jpeg" class="img">
+    <header>
+    <img src="../src/img/logor.png" class="logo">
+    <button id="help" class="btnh">Ayuda</button>
+    <img src="../src/img/f4.jpg" title="Click para cerrar" class="hidden" id="ihelp">
+    </header>
+    <img src="../src/img/fondo.png" class="img">
+    <h1>Mensaje cifrado y seguro</h1>
+    <h2>¡Una mano amiga es una nueva forma segura de comunicarte! <br>
+      Nunca más tendrás que ocultar la pantalla de tu celular.</h2>
     <div>
-     <h1>Rompe el silencio</h1>
-     <h2><strong> A travez de esta página podras enviar un mensaje de auxilio 
-      a tu familia, amigos o la policia sin que tu agresor se entere 
-      el tema de la coversación, ya que el mensaje se cifra y la otra persona solo 
-      tendra que descifrarlo.</strong>
-     </h2>
-      <h3>Inserta tu mensaje</h3>  
+      <h3>Inserta tu mensaje</h3><br>
       <center><textarea  id="mensaje" cols="50" rows="6"  placeholder="Escriba el mensaje"></textarea><br><br>
-      <strong>offset:</strong><input type="text" id="desp"><br><br>
+      <strong>Clave:</strong><input type="text" id="offset"><br><br>
       <button id="cifrar" class="btn" >Cifrar </button>
       <button id="descifrar" class="btn">Descifrar </button>
       <button id="limpiar" class="btn">Limpiar</button> 
       <h3>Resultado:</h3>
-      <p id="resultado"></p></center>
+      <p id="result"></p></center>
       </div> 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
