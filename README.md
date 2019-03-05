@@ -4,7 +4,7 @@
 
 ![Una mano amiga](https://github.com/DianaOropeza/LIM009-Cipher/blob/master/src/img/logor.png)
 
-A través de esta aplicación podrás tener una conversación segura, enviar un mensaje secreto a tu familia, amigos o la policía si necesitas ayuda, sin que tu agresor se entere del tema de la conversación, ya que el mensaje se cifra y la otra persona solo tendrá que descifrarlo.
+Es una aplicación para que las mujeres con problemas de pareja puedan tener una conversación segura, enviar un mensaje secreto a tu familia, amigos o a la policía si necesitas ayuda, sin que su pareja o nadie se entere del tema de la conversación, ya que el mensaje se cifra y la otra persona solo tendrá que descifrarlo.
 
 ## ¿Qué es el Cifrado César? 
 
@@ -21,7 +21,7 @@ Por ejemplo, si usáramos un desplazamiento (_offset_) de 3:
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
 ## Importancia
-Podrás cifrar un mensaje y así ocultar lo que realmente estás escribiendo, eso sería la sustitución y el número que asignes será el cambio de posición que ocurrirá. La aplicación acepta mayúsculas, minúsculas y caracteres como (.,-,ñ,ect).
+El cifrado César nos permite cifrar un mensaje y así ocultar lo que realmente estás escribiendo, eso sería la sustitución y el número que asignes será el cambio de posición que ocurrirá. La aplicación acepta mayúsculas, minúsculas y caracteres como (.,-,ñ,ect).
 ## Dinámica de la aplicación
 ![Instrucciones]( https://github.com/DianaOropeza/LIM009-Cipher/blob/master/src/img/f4.jpg)
 
