@@ -6,7 +6,7 @@
 
 A través de esta aplicación podrás tener una conversación segura, enviar un mensaje secreto a tu familia, amigos o la policía si necesitas ayuda, sin que tu agresor se entere del tema de la conversación, ya que el mensaje se cifra y la otra persona solo tendrá que descifrarlo.
 
-## ¿Qué es el Cifrado César? :scream:
+## ¿Qué es el Cifrado César? 
 
 El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los
 primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado por
