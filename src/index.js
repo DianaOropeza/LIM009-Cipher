@@ -7,7 +7,7 @@ const btndescifrar=document.getElementById("descifrar");
 const resulta=document.getElementById("result");
 const clear=document.getElementById("limpiar");
 const btnhelp=document.getElementById("help");
-const help=document.getElementById("ihelp");
+const ihelp=document.getElementById("ihelp");
 
 btncifrar.addEventListener("click",()=>{    
 const mensajeCapturado=mensaje.value;
@@ -31,6 +31,6 @@ btnhelp.addEventListener("click", ()=>{
 ihelp.style.display = 'block';
 })
 
-help.addEventListener("click",()=>{
+ihelp.addEventListener("click",()=>{
 ihelp.style.display='none';
 })

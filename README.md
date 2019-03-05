@@ -3,6 +3,7 @@
 ## De que trata Una Mano Amiga
 
 ![Una mano amiga](https://github.com/DianaOropeza/LIM009-Cipher/blob/master/src/img/logor.png)
+
 A través de esta aplicación podrás tener una conversación segura, enviar un mensaje secreto a tu familia, amigos o la policía si necesitas ayuda, sin que tu agresor se entere del tema de la conversación, ya que el mensaje se cifra y la otra persona solo tendrá que descifrarlo.
 
 ## ¿Qué es el Cifrado César? :scream:
