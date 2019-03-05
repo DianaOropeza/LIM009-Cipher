@@ -1,7 +1,7 @@
 header{
     height: 50px;
     width: 100%;
-    background: transparent;
+    background:transparent;
     top:0;
     right: 0;
     position: fixed;
@@ -22,8 +22,8 @@ de fondo o si hay problemas para cargarla */
 }
 
 .logo{
-    height: 60px;
-    width: 150px;
+    height: 45px;
+    width: 130px;
     margin-top: 3px;
     margin-left: 10px;
     position: absolute;
